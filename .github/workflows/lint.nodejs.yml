@@ -32,8 +32,8 @@ jobs:
       security-events: write
     steps:
       - uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3.2.0
-      - uses: github/codeql-action/init@579411fb6c2fa885902ffeb0238873661aa2dc29 # tag=codeql-bundle-20221024
+      - uses: github/codeql-action/init@bdc7c5d203860b808ad2371e491a35160fc2f9c0 # tag=codeql-bundle-20221024
         with:
           languages: javascript
-      - uses: github/codeql-action/autobuild@579411fb6c2fa885902ffeb0238873661aa2dc29 # tag=codeql-bundle-20221024
-      - uses: github/codeql-action/analyze@579411fb6c2fa885902ffeb0238873661aa2dc29 # tag=codeql-bundle-20221024
+      - uses: github/codeql-action/autobuild@bdc7c5d203860b808ad2371e491a35160fc2f9c0 # tag=codeql-bundle-20221024
+      - uses: github/codeql-action/analyze@bdc7c5d203860b808ad2371e491a35160fc2f9c0 # tag=codeql-bundle-20221024
